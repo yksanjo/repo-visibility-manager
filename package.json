@@ -1,0 +1,12 @@
+{
+  "name": "repo-visibility-manager",
+  "version": "1.0.0",
+  "description": "Manage public/private visibility of repositories",
+  "main": "src/index.js",
+  "bin": { "gh-visibility": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "visibility", "public", "private"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
